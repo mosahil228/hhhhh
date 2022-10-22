@@ -1,0 +1,123 @@
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    .main{
+        width: 100rem;
+        height: 65rem;
+        background-color:#fff ;
+        display: flex;
+        overflow: hidden;
+        margin: 0 3rem;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .leftMain{
+            width: 40%;
+            height: 100%;
+            background-color: red;
+            .imgbox{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 65rem;
+                    object-fit:cover;
+                }
+            }
+            
+        }
+        .rightMain{
+            width: 60%;
+            height: 100%;
+            padding: 4rem;
+            .formMain{
+                margin: 2rem;
+                .box{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 3rem;
+                    .box2{
+                        p{
+                            font-size: 1.5rem;
+                            line-height: 3rem;
+                            font-weight: 600;
+                            color: gray;
+                        }
+                        button{
+                            border: none;
+                            outline: none;
+                            background-color: red;
+                            padding: 1rem;
+                            border-radius: 2rem;
+                            width: 12rem;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                        .drag{
+                            display: flex;
+                            border: 2px dashed gray;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 7px;
+                            width: 100%;
+                            padding: 4rem;
+                            p{
+                                display: flex;
+                            }
+                        }
+                    }
+                    .box1{
+                        p{
+                            font-size: 1.5rem;
+                            line-height: 3rem;
+                            font-weight: 600;
+                            span{
+                                color: red;
+                                margin-left: .2rem;
+                            }
+                        }
+                        input{
+                            width: 20rem;
+                            padding: 1rem;
+                            outline: none;
+                        }
+                      select{
+                        width: 20rem;
+                        padding: 1rem;
+                        border-radius: 4px;
+                        outline: none;
+                      }
+                       
+                    }
+                }
+            }
+            .content{
+                margin: 2rem;
+                h1{
+                    margin: 1rem 0 3rem 0;
+                    font-size: 2.2rem;
+                }
+            }
+            .cross{
+                text-align: right;
+                width: 100%;
+                svg{
+                    border: 1px solid black;
+                    font-size: 2.7rem;
+                    padding: .4rem;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
